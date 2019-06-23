@@ -1,23 +1,69 @@
 .footer {
   display: flex;
-  justify-content: space-between;
-  width: 80%;
-  margin: auto;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgba(54, 54, 54);
 }
 
-.left {
-  display: block;
+.footerImg img {
+  width: 150px;
+  position: absolute;
+  left: 82%;
+  opacity: 0.3;
+  margin: 1.8% 0 0 0;
 }
 
-.leftFooterTitle {
-  display: block;
-}
-
-.leftFooterTitle h1 {
-  font-size: 1.6rem;
-}
-
-.leftFooterList {
+.footerTop {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 30%;
+  margin: 1% auto 0 auto;
+}
+
+.footerTop a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #e46635;
+  margin: 2% 2%;
+}
+
+.footerMiddle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 10%;
+  margin: 1% auto 0 auto;
+}
+
+.fa-facebook-f {
+  font-size: 1rem;
+  color: #e46635;
+}
+
+.fa-linkedin-in {
+  font-size: 1rem;
+  color: #e46635;
+}
+
+.fa-yelp {
+  font-size: 1rem;
+  color: #e46635;
+}
+
+.footerBottom {
+  text-align: center;
+  margin: 2% 0 2% 0;
+}
+
+.footerBottom a {
+  text-decoration: none;
+  color: #e46635;
+  font-size: 0.8rem;
+}
+
+.footerBottom p {
+  color: #e46635;
+  font-size: 0.8rem;
 }
