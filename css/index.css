@@ -144,7 +144,7 @@ table {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  width: 30%;
+  width: 50%;
   margin: 1% auto 0 auto;
 }
 .footerTop a {
