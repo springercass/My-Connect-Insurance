@@ -560,7 +560,7 @@ i {
 }
 .carrierGrid {
   width: 70%;
-  height: 97vh;
+  height: 100vh;
   margin: 3% auto;
   display: flex;
   flex-direction: row;
