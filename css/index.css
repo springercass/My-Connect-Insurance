@@ -138,7 +138,7 @@ table {
   position: absolute;
   left: 82%;
   opacity: 0.3;
-  margin: 1.8% 0 0 0;
+  margin: 0.8% 0 0 0;
 }
 .footerTop {
   display: flex;
@@ -356,12 +356,13 @@ header {
   margin: 0.9% 0 0 0;
 }
 #mapLink {
-  color: #d35a2b;
+  color: #e46635;
   text-decoration: none;
 }
 #mapLink:hover {
-  opacity: 0.7;
+  opacity: 0.5;
   cursor: pointer;
+  transition: 0.5s ease;
 }
 .headerImg {
   width: 100%;
@@ -395,6 +396,7 @@ header {
   text-decoration: none;
   color: white;
   text-shadow: 0 1px 4px rgba(43, 43, 43, 0.2);
+  transition: 0.5s ease;
 }
 .navLinkHome:hover {
   color: #2d4f9e;
@@ -429,6 +431,7 @@ header {
 .dropbtnHome:hover {
   color: #2d4f9e;
   text-shadow: -1px 1px 3px #2d4f9e;
+  transition: 0.5s ease;
 }
 .fa-angle-down {
   font-size: 0.9rem;
