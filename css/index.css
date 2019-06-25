@@ -335,6 +335,7 @@ header {
   color: #2d4f9e;
   font-weight: bolder;
   margin: 0.9% 0 0 0;
+  font-weight: 400;
 }
 .insuranceH1 {
   position: absolute;
@@ -344,6 +345,7 @@ header {
   color: #d35a2b;
   font-weight: bolder;
   margin: 0.9% 0 0 0;
+  font-weight: 400;
 }
 .phoneH1 {
   position: absolute;
@@ -354,6 +356,7 @@ header {
   color: #d35a2b;
   font-weight: bolder;
   margin: 0.9% 0 0 0;
+  font-weight: 400;
 }
 #mapLink {
   color: #e46635;
@@ -363,6 +366,7 @@ header {
   opacity: 0.5;
   cursor: pointer;
   transition: 0.5s ease;
+  transition: 0.3s ease-out;
 }
 .headerImg {
   width: 100%;
@@ -397,6 +401,7 @@ header {
   color: white;
   text-shadow: 0 1px 4px rgba(43, 43, 43, 0.2);
   transition: 0.5s ease;
+  font-weight: 300;
 }
 .navLinkHome:hover {
   color: #2d4f9e;
@@ -427,6 +432,7 @@ header {
   font-size: 1.2rem;
   text-decoration: none;
   text-shadow: 0 1px 4px rgba(43, 43, 43, 0.2);
+  font-weight: 300;
 }
 .dropbtnHome:hover {
   color: #2d4f9e;
@@ -492,6 +498,70 @@ i {
   border-bottom: 1px solid rgba(44, 44, 44);
   text-shadow: 0 1px 4px rgba(44, 44, 44);
   font-family: "IBM Plex Serif", serif;
+}
+.index1 p {
+  font-weight: 300;
+}
+.index2 {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+}
+.index2container {
+  margin: 4% auto;
+}
+.index2container h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 0;
+  font-weight: 400;
+}
+.types {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 60%;
+  margin: 3% auto;
+}
+.serviceType {
+  width: 28%;
+  margin: 1%;
+  text-align: center;
+}
+.serviceType a {
+  text-decoration: none;
+  color: black;
+}
+.serviceType h2 {
+  font-size: 1.4rem;
+  margin: 0 0 2.5% 0;
+  font-weight: 300;
+}
+.serviceType p {
+  line-height: 1.3rem;
+  font-size: 1rem;
+}
+.typeIcon {
+  font-size: 1.8rem;
+  color: #d35a2b !important;
+  padding: 10%;
+  margin: 0 0 5% 0;
+  border: 1px solid rgba(255, 255, 255, 0);
+  border-radius: 50%;
+}
+.typeIcon:hover {
+  box-shadow: 0 1px 8px rgba(197, 81, 35, 0.5);
+  transition: 0.7s ease;
+}
+.carrierArrow {
+  margin: 2%;
+  padding: 0;
+  font-size: 1.6rem !important;
+}
+.index2bottom {
+  width: 25%;
+  margin: auto;
 }
 .aboutUs {
   display: flex;
