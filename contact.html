@@ -57,18 +57,20 @@
           action="https://formspree.io/stevenrosenburgh@gmail.com"
           method="POST"
         >
-          First Name: <input type="text" /> Last Name:
-          <input type="text" /> Phone: <input type="phone" /> Email:
-          <input type="email" /> Zip Code: <input type="number" />
-          <input type="radio" name="insuranceType" value="Auto" />Auto
+          First Name: <input type="text" name="First Name" /> Last Name:
+          <input type="text" name="Last Name" /> Phone:
+          <input type="tel" name="Phone Number" /> Email:
+          <input type="email" name="Email" /> Zip Code:
+          <input type="text" name="Zip Code" />
+          <input type="radio" name="Insurance Type" value="Auto" />Auto
           <input
             type="radio"
             name="insuranceType"
             value="Commercial"
           />Commercial
-          <input type="radio" name="insuranceType" value="Home" />Home
-          <input type="radio" name="insuranceType" value="Personal" />Personal
-          <input type="radio" name="insuranceType" value="Travel" />Travel
+          <input type="radio" name="Insurance Type" value="Home" />Home
+          <input type="radio" name="Insurance Type" value="Personal" />Personal
+          <input type="radio" name="Insurance Type" value="Travel" />Travel
           <input type="submit" value="Send" />
         </form>
       </div>
