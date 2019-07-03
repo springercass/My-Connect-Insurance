@@ -17,10 +17,12 @@
       href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif:300,400,600&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/slick.css" />
+    <link rel="stylesheet" href="./css/slick-theme.css" />
     <title>Connect Insurance Group, Inc. | East Dundee, Illinois</title>
     <meta
       name="description"
-      content="Connect Insurance Group Inc. is an insurance brokerage in East Dunde, Illinois. We cover home, auto, and business insurance."
+      content="Connect Insurance Group Inc. is an insurance brokerage in East Dundee, Illinois. We cover home, auto, and business insurance."
     />
     <meta
       name="keywords"
@@ -28,6 +30,21 @@
     />
   </head>
   <body>
+    <script src="./js/slick.js" type="text/javascript"></script>
+    <script
+      src="./node_modules/jquery/package.json"
+      type="text/javascript"
+    ></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $(".carrierBanner").slick({
+          slidesToShow: 6,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 2000
+        });
+      });
+    </script>
     <header id="home">
       <div class="titleBox">
         <a href="./index.html"
@@ -148,10 +165,68 @@
         <div class="index2bottom">
           <a href="./carriers.html" id="mapLink"
             ><h1>
-              View Our Carriers<i
+              View All Carriers<i
                 class="fas fa-arrow-alt-circle-right carrierArrow"
               ></i></h1
           ></a>
+        </div>
+        <div class="carrierBanner">
+          <div class="imgContainerB">
+            <a href="https://chicago.aaa.com/" target="_blank"
+              ><img src="./img/AAATheAutoClubGroup.png" class="carrierImgB "
+            /></a>
+          </div>
+          <div class="imgContainerB">
+            <a href="https://www.allstate.com/" target="_blank"
+              ><img src="./img/Allstate.png" class="carrierImgB"
+            /></a>
+          </div>
+          <div class="imgContainerB">
+            <a href="https://www.employers.com/" target="_blank"
+              ><img src="./img/employers.png" class="carrierImgB"
+            /></a>
+          </div>
+          <div class="imgContainerB">
+            <a
+              href="https://www.foundersinsurance.com/Default.aspx"
+              target="_blank"
+              ><img src="./img/FoundersInsuranceGroup.png" class="carrierImgB"
+            /></a>
+          </div>
+          <div class="imgContainerB">
+            <a href="https://www.ilcasco.com/" target="_blank"
+              ><img src="./img/IllinoisCasualtyCompany.png" class="carrierImgB"
+            /></a>
+          </div>
+
+          <div class="imgContainerB">
+            <a href="https://www.libertymutual.com/" target="_blank"
+              ><img src="./img/LibertyMutual.png" class="carrierImgB"
+            /></a>
+          </div>
+          <div class="imgContainerB">
+            <a href="https://www.nationwide.com/" target="_blank"
+              ><img src="./img/Nationwide.png" class="carrierImgB"
+            /></a>
+          </div>
+          <div class="imgContainerB">
+            <a
+              href="https://www.progressive.com/experience/tiles/"
+              target="_blank"
+              ><img src="./img/Progressive.png" class="carrierImgB"
+            /></a>
+          </div>
+          <div class="imgContainerB">
+            <a href="https://www.rockfordmutual.com/" target="_blank"
+              ><img src="./img/RockfordMutual.png" class="carrierImgB"
+            /></a>
+          </div>
+
+          <div class="imgContainerB">
+            <a href="https://www.travelers.com/index" target="_blank"
+              ><img src="./img/Travelers.png" class="carrierImgB"
+            /></a>
+          </div>
         </div>
       </div>
     </section>
