@@ -506,7 +506,6 @@ i {
 }
 .index2 {
   width: 100%;
-  height: 100vh;
   background-color: white;
 }
 .index2container {
@@ -564,6 +563,29 @@ i {
 .index2bottom {
   width: 25%;
   margin: auto;
+}
+.carrierBanner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow: hidden;
+  margin: auto;
+}
+.imgContainerB {
+  margin: 1%;
+}
+.carrierImgB {
+  width: 140px;
+  border: 1px solid #f1eeee;
+  margin: 4% 2%;
+  opacity: 1;
+  transition: 0.5s ease;
+  box-shadow: 0 2px 8px #f1eeee;
+}
+.carrierImgB:hover {
+  opacity: 0.3;
+  box-shadow: 0 5px 12px #f1eeee;
+  cursor: pointer;
 }
 .aboutUs {
   display: flex;
@@ -690,4 +712,185 @@ i {
 .typeBottom {
   width: 50%;
   margin: 2% auto;
+}
+.contactSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin: 2% auto;
+}
+.contactSection .leftContact {
+  width: 50%;
+  padding: 2%;
+}
+.contactSection .rightContact {
+  width: 50%;
+  padding: 1%;
+}
+.contactSection .rightContact .rightDiv {
+  width: 100%;
+  margin: auto;
+}
+.contactSection .rightContact .rightDiv h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin: 1%;
+}
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 80%;
+}
+.contactForm h2 {
+  font-weight: 600;
+  margin: 1% 0;
+}
+.contactForm .inputDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 2% 0;
+}
+.contactForm .inputDiv input {
+  width: 100%;
+  height: 40px;
+  border-bottom: 1px solid gray;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  font-size: 1rem;
+}
+.contactForm .inputDiv input:focus {
+  outline: none;
+}
+.contactForm .inputDiv input::placeholder {
+  font-size: 1rem;
+  color: #868686;
+}
+.contactForm .radios {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1% 0;
+}
+.contactForm .radios .inputDiv2 {
+  margin: 2% 0;
+}
+.contactForm .submitButton {
+  width: 25%;
+  margin: 2% auto;
+  background-color: #2d4f9e;
+  border: none;
+  color: white;
+  height: 40px;
+  font-size: 1.2rem;
+}
+.contactForm .submitButton:hover {
+  cursor: pointer;
+  opacity: 0.7;
+  transition: 0.5sec ease;
+}
+.compareSection {
+  width: 60%;
+  height: 90vh;
+  margin: auto;
+}
+.compareSection h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin: 2%;
+}
+.compareSection .tabs {
+  width: 100%;
+  margin: auto;
+}
+.compareSection .tabs .topics {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.compareSection .tabs .tab {
+  border-bottom: none;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 40px;
+  width: 20%;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 2% 0;
+  background-color: #2d4f9e;
+  color: white;
+}
+.compareSection .tabs .tab:hover {
+  cursor: pointer;
+}
+.compareSection .card {
+  height: 60vh;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+.compareSection .active-tab {
+  background-color: white !important;
+  color: #2d4f9e !important;
+  border: 1px solid black;
+  border-bottom: none;
+}
+.compareSection .compareForm {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+}
+.compareSection .compareForm h2 {
+  font-weight: 600;
+  margin: 1% 0;
+}
+.compareSection .compareForm .inputDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 2% 0;
+}
+.compareSection .compareForm .inputDiv input {
+  width: 100%;
+  height: 40px;
+  border-bottom: 1px solid gray;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  font-size: 1rem;
+}
+.compareSection .compareForm .inputDiv input:focus {
+  outline: none;
+}
+.compareSection .compareForm .inputDiv input::placeholder {
+  font-size: 1rem;
+  color: #868686;
+}
+.compareSection .compareForm .radios {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1% 0;
+}
+.compareSection .compareForm .radios .inputDiv2 {
+  margin: 2% 0;
+}
+.compareSection .compareForm .submitButton {
+  width: 25%;
+  margin: 2% auto;
+  background-color: #2d4f9e;
+  border: none;
+  color: white;
+  height: 40px;
+  font-size: 1.2rem;
+}
+.compareSection .compareForm .submitButton:hover {
+  cursor: pointer;
+  opacity: 0.7;
+  transition: 0.5sec ease;
 }
