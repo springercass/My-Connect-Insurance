@@ -27,38 +27,66 @@
     />
   </head>
   <body>
-    <header>
-      <a href="./index.html" class="logoA"
-        ><img src="./img/logo.png" class="logo"
-      /></a>
-      <nav class="navBar">
-        <a href="./index.html" class="navLink">Home</a>
-        <div class="dropdown">
-          <a href="" class="dropbtn">
-            Insurance<i class="fas fa-angle-down"></i>
-          </a>
-          <div class="dropdown-content">
-            <a href="./auto.html">Auto Insurance</a>
-            <a href="./commercial.html">Commercial Insurance</a>
-            <a href="./home.html">Home Insurance</a>
-            <a href="./personal.html">Personal Insurance</a>
-            <a href="./travel.html">Travel Insurance</a>
-          </div>
-        </div>
-        <a href="./compare.html" class="navLink">Compare Quotes</a>
-        <a href="./carriers.html" class="navLink">Carriers</a>
-        <a href="./contact.html" class="navLink">Contact Us</a>
-      </nav>
+    <header id="home">
+      <div class="titleBox">
+        <a href="./index.html"
+          ><img src="./img/logo1.png" class="titleImg" />
+          <h1 class="connectH1">
+            Connect
+            <h1 class="insuranceH1">Insurance Group</h1>
+          </h1>
+        </a>
+        <h1 class="phoneH1">
+          <a
+            href="https://www.google.com/maps/place/Connect+Insurance+Group,+Inc/@42.0786285,-88.2604015,17z/data=!3m1!4b1!4m5!3m4!1s0x880f0f45b548d155:0x3a649b0dd73f1806!8m2!3d42.0785652!4d-88.2580908"
+            target="_blank"
+            id="mapLink"
+            ><i class="fas fa-map-marker-alt"></i></a
+          ><a href="tel:1-847-628-9595" id="mapLink">| 847-628-9595</a>
+        </h1>
+      </div>
     </header>
+    <nav class="navBar">
+      <a href="./index.html" class="logoA"
+        ><img src="./img/logo.png" class="logo"/></a
+      ><a href="./index.html" class="navLink">Home</a>
+      <div class="dropdown">
+        <a href="" class="dropbtn">
+          Insurance<i class="fas fa-angle-down"></i>
+        </a>
+        <div class="dropdown-content">
+          <a href="./auto.html">Auto Insurance</a>
+          <a href="./commercial.html">Commercial Insurance</a>
+          <a href="./home.html">Home Insurance</a>
+          <a href="./personal.html">Personal Insurance</a>
+        </div>
+      </div>
+      <a href="./compare.html" class="navLink">Compare Quotes</a>
+      <a href="./carriers.html" class="navLink">Carriers</a>
+      <a href="./contact.html" class="navLink">Contact Us</a>
+    </nav>
     <section class="typeTemplate">
       <div class="typeContainer">
         <div class="typeTop">
-          <h1>Commercial Insurance</h1>
-          <img src="./img/commercial.jpg" class="typeImg" />
+          <div class="topLeft">
+            <h1>Commercial Insurance</h1>
+            <p>
+              With every business comes major risks, and you don't want to lose
+              your hard earned revenue or even lose your business because of an
+              accident. As a business owner, you aren't just responsible for
+              ensuring that operations are running smoothly, but also keeping
+              your employees and property insured from injuries and damage. We
+              at Connect Insurance Group help design a policy that is tailored
+              to your business' needs.
+            </p>
+          </div>
+          <div class="topRight">
+            <img src="./img/commercial.jpg" class="typeImg" />
+          </div>
         </div>
         <div class="typeBottom">
-          <div>
-            <h2>Commercial Auto Insurance</h2>
+          <div class="typeBox">
+            <h2><i class="fas fa-truck"></i>Commercial Auto Insurance</h2>
             <p>
               We at connect Insurance Group want your business to be safe and
               continue thriving by preventing the loss of your hard-earned
@@ -72,8 +100,8 @@
               Coverage, Uninsured and Underinsured Motorist Coverage.
             </p>
           </div>
-          <div>
-            <h2>Commercial General Liability</h2>
+          <div class="typeBox">
+            <h2><i class="fas fa-user-tie"></i>Commercial General Liability</h2>
             <p>
               With every business comes major risks, and you don't want to lose
               your hard earned revenue or even lose your business because of an
@@ -88,8 +116,8 @@
               and reimbursements covered.
             </p>
           </div>
-          <div>
-            <h2>Commercial Property</h2>
+          <div class="typeBox">
+            <h2><i class="fas fa-warehouse"></i>Commercial Property</h2>
             <p>
               Accidents can and will happen, and the last thing you want as a
               business owner is to be under the wrong policy when it does and
@@ -106,8 +134,8 @@
               equipment from breakdowns or loss.
             </p>
           </div>
-          <div>
-            <h2>Workers Compensation</h2>
+          <div class="typeBox">
+            <h2><i class="fas fa-user-clock"></i>Workers Compensation</h2>
             <p>
               We understand that the success of your business depends on your
               employees and their hard work, expertise, and commitment and they
@@ -121,8 +149,8 @@
               legal fees in the case of a lawsuit, and funeral costs.
             </p>
           </div>
-          <div>
-            <h2>Landlord Insurance</h2>
+          <div class="typeBox">
+            <h2><i class="fas fa-building"></i>Landlord Insurance</h2>
             <p>
               As the owner of an apartment, home, condo, or other property,
               you’ll want to be prepared in the event that your investment is
@@ -132,8 +160,10 @@
               Legal counsel and fees in the event of a related lawsuit.
             </p>
           </div>
-          <div>
-            <h2>Business Owner's Package</h2>
+          <div class="typeBox">
+            <h2>
+              <i class="fas fa-business-time"></i>Business Owner's Package
+            </h2>
             <p>
               A Business Owner's Package policy can cover an arry of a business'
               insurance needs. It often includes vehicle, property damage,
