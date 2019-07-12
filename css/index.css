@@ -154,7 +154,7 @@ table {
 }
 @media (max-width:500px) {
   .footerTop {
-    width: 80%;
+    width: 100%;
   }
 }
 .footerTop a {
@@ -162,6 +162,11 @@ table {
   text-decoration: none;
   color: #e46635;
   margin: 2% 2%;
+}
+@media (max-width:500px) {
+  .footerTop a {
+    font-size: 0.8rem;
+  }
 }
 .footerMiddle {
   display: flex;
