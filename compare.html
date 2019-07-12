@@ -25,9 +25,38 @@
       content="Connect Insurance Group inc, myconnectinsurance, connect insurance, connect insurance group, East Dundee Insurance broker, Commercial insurance near me, commercial insurance East Dundee, Insurance broker Elgin, Insurance broker East Dundee, Commercial Insurance Elgin, Home Insurance east Dundee, Auto Insurance East Dundee, Insurance Elgin Illinois, roofers insurance, roofing contractor insurance, insurance quotes, liability coverage, small business Insurance coverage, small business insurance cost, Service Industry Insurance, Fall Protection, Workers Compensation Insurance, General Liability Insurance, general liability insurance coverage, general contractor insurance, nationwide insurance, insurance companies near me, the general insurance quote,"
     />
     <script src="./js/tabs.js" async></script>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
   </head>
   <body>
-    <header>
+    <header id="home">
+      <div class="titleBox">
+        <a href="./index.html"
+          ><img src="./img/logo1.png" class="titleImg" />
+          <h1 class="connectH1">
+            Connect
+            <h1 class="insuranceH1">Insurance Group</h1>
+          </h1>
+        </a>
+        <h1 class="phoneH1">
+          <a
+            href="https://www.google.com/maps/place/Connect+Insurance+Group,+Inc/@42.0786285,-88.2604015,17z/data=!3m1!4b1!4m5!3m4!1s0x880f0f45b548d155:0x3a649b0dd73f1806!8m2!3d42.0785652!4d-88.2580908"
+            target="_blank"
+            id="mapLink"
+            ><i class="fas fa-map-marker-alt"></i></a
+          ><a href="tel:1-847-628-9595" id="mapLink">| 847-628-9595</a>
+        </h1>
+      </div>
+    </header>
+    <div class="navDiv">
       <a href="./index.html" class="logoA"
         ><img src="./img/logo.png" class="logo"
       /></a>
@@ -48,8 +77,23 @@
         <a href="./carriers.html" class="navLink">Carriers</a>
         <a href="./contact.html" class="navLink">Contact Us</a>
       </nav>
-    </header>
-
+    </div>
+    <div class="topnav">
+      <a href="./compare.html" class="active">Get a Quote</a>
+      <div id="myLinks">
+        <a href="./index.html">Home</a>
+        <a href="./auto.html">Auto Insurance</a>
+        <a href="./commercial.html">Commercial Insurance</a>
+        <a href="./home.html">Home Insurance</a>
+        <a href="./personal.html">Personal Insurance</a>
+        <a href="./compare.html">Compare Quotes</a>
+        <a href="./carriers.html">Carriers</a>
+        <a href="./contact.html">Contact Us</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
     <section class="compareSection">
       <h1>Choose Your Quote</h1>
 

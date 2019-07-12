@@ -4,11 +4,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <script src="https://kit.fontawesome.com/c9d7ec71b0.js"></script>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
     <link rel="stylesheet" type="text/css" href="./css/index.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600&display=swap"
       rel="stylesheet"
     />
+
     <link
       href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif:300,400,500,600&display=swap"
       rel="stylesheet"
@@ -45,25 +56,44 @@
         </h1>
       </div>
     </header>
-    <nav class="navBar">
+    <div class="navDiv">
       <a href="./index.html" class="logoA"
-        ><img src="./img/logo.png" class="logo"/></a
-      ><a href="./index.html" class="navLink">Home</a>
-      <div class="dropdown">
-        <a href="" class="dropbtn">
-          Insurance<i class="fas fa-angle-down"></i>
-        </a>
-        <div class="dropdown-content">
-          <a href="./auto.html">Auto Insurance</a>
-          <a href="./commercial.html">Commercial Insurance</a>
-          <a href="./home.html">Home Insurance</a>
-          <a href="./personal.html">Personal Insurance</a>
+        ><img src="./img/logo.png" class="logo"
+      /></a>
+      <nav class="navBar">
+        <a href="./index.html" class="navLink">Home</a>
+        <div class="dropdown">
+          <a href="" class="dropbtn">
+            Insurance<i class="fas fa-angle-down"></i>
+          </a>
+          <div class="dropdown-content">
+            <a href="./auto.html">Auto Insurance</a>
+            <a href="./commercial.html">Commercial Insurance</a>
+            <a href="./home.html">Home Insurance</a>
+            <a href="./personal.html">Personal Insurance</a>
+          </div>
         </div>
+        <a href="./compare.html" class="navLink">Compare Quotes</a>
+        <a href="./carriers.html" class="navLink">Carriers</a>
+        <a href="./contact.html" class="navLink">Contact Us</a>
+      </nav>
+    </div>
+    <div class="topnav">
+      <a href="./compare.html" class="active">Get a Quote</a>
+      <div id="myLinks">
+        <a href="./index.html">Home</a>
+        <a href="./auto.html">Auto Insurance</a>
+        <a href="./commercial.html">Commercial Insurance</a>
+        <a href="./home.html">Home Insurance</a>
+        <a href="./personal.html">Personal Insurance</a>
+        <a href="./compare.html">Compare Quotes</a>
+        <a href="./carriers.html">Carriers</a>
+        <a href="./contact.html">Contact Us</a>
       </div>
-      <a href="./compare.html" class="navLink">Compare Quotes</a>
-      <a href="./carriers.html" class="navLink">Carriers</a>
-      <a href="./contact.html" class="navLink">Contact Us</a>
-    </nav>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
     <section class="typeTemplate">
       <div class="typeContainer">
         <div class="typeTop">
@@ -82,16 +112,28 @@
             <img src="./img/auto.jpg" class="typeImg" />
           </div>
         </div>
+        <div class="typeMiddle">
+          <div class="middleContent">
+            <div class="middleLeft">
+              <p>
+                Essential protection for your business, property, and employees
+                made easy and affordable by
+              </p>
+
+              <h3>
+                Connect Insurance Group, Inc.
+              </h3>
+            </div>
+            <a href="./compare.html"><button>GET COVERAGE</button></a>
+          </div>
+        </div>
         <div class="typeBottom">
           <div class="typeBox">
             <h2><i class="fas fa-shield-alt"></i>Liability Coverage</h2>
-
-            <br />
-            <p class="boldP">
+            <p>
               Auto liability coverage has two main parts: Bodily Injury and
               Property Damage Liability
             </p>
-            <br />
             <p>
               <span class="underlineP">Bodily Injury Liability</span>
               helps pay for costs associated with the other person’s injuries,
@@ -105,21 +147,21 @@
               will reduce the risk of major loss from expenses that could result
               in the loss of your home, savings, and income.
             </p>
+            <a href="./compare.html"
+              ><button class="getCoveredButton">Get Covered</button></a
+            >
           </div>
           <div class="typeBox">
             <h2><i class="fas fa-car-crash"></i>Collision Coverage</h2>
             <p>
               For a lot of people, their car is a big investment and if you get
               into an accident, you want to make sure that you protect that
-              investment. Whether the damage is a result of an accident with
-              another vehicle or an object, you want that damage to be covered
-              by our insurance. The right amount of Collision Coverage depends
-              on factors like the age and year of your car, as well as your
+              investment. The right amount of Collision Coverage depends on
+              factors like the age and year of your car, as well as your
               financial situation and we at Connect Insurance Group can help you
-              find the best coverage that works for you and your unique
-              situation. You may also want to add-on Diminishing Deductible, GAP
-              Coverage, and Accident Forgiveness to your plan for better
-              protection.
+              find the best coverage that works for your unique situation. You
+              may also want to add-on Diminishing Deductible, GAP Coverage, and
+              Accident Forgiveness to your plan for better protection.
             </p>
             <br />
             <p>
@@ -139,6 +181,9 @@
               <span class="underlineP">Accident Forgiveness</span> ensures that
               your rates won’t increase just because of a single accident.
             </p>
+            <a href="./compare.html"
+              ><button class="getCoveredButton">Get Covered</button></a
+            >
           </div>
           <div class="typeBox">
             <h2><i class="fas fa-hands-helping"></i>Comprehensive Coverage</h2>
@@ -157,6 +202,9 @@
               you with benefits such as lockout assistance, jump starts, and
               towing all bundled into one comprehensive package.
             </p>
+            <a href="./compare.html"
+              ><button class="getCoveredButton">Get Covered</button></a
+            >
           </div>
           <div class="typeBox">
             <h2><i class="fas fa-motorcycle"></i>Motorcycle Insurance</h2>
@@ -178,6 +226,9 @@
               <li class="boldP">Theft</li>
               <li class="boldP">Vandalism</li>
             </ul>
+            <a href="./compare.html"
+              ><button class="getCoveredButton">Get Covered</button></a
+            >
           </div>
           <div class="typeBox">
             <h2><i class="fas fa-ship"></i>Watercraft Insurance</h2>
@@ -190,6 +241,9 @@
               sail boat, or wave runner, we'll connect you with the right
               policy.
             </p>
+            <a href="./compare.html"
+              ><button class="getCoveredButton">Get Covered</button></a
+            >
           </div>
           <div class="typeBox">
             <h2><i class="fas fa-tachometer-alt"></i>Motorhome Insurance</h2>
@@ -215,6 +269,9 @@
               <span class="underlineP">Property Damage Liability</span> – to
               cover the damage done by you to another person's property.
             </p>
+            <a href="./compare.html"
+              ><button class="getCoveredButton">Get Covered</button></a
+            >
           </div>
         </div>
       </div>
