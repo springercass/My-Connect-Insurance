@@ -1376,6 +1376,33 @@ i {
   justify-content: space-between;
   margin: 3% 0;
 }
+.compareSection .compareForm .formTopPersonal {
+  display: flex;
+  width: 100%;
+  margin: 3% 0;
+}
+.compareSection .compareForm .formTopPersonal .formLeftPersonal {
+  width: 45%;
+}
+.compareSection .compareForm .formTopPersonal .formLeftPersonal .inputDiv {
+  margin: 2% 0;
+}
+.compareSection .compareForm .formTopPersonal .formRightPersonal {
+  width: 50%;
+  margin: auto;
+}
+.compareSection .compareForm .formTopPersonal .formRightPersonal .inputDiv {
+  margin: 2% 0;
+}
+.compareSection .compareForm .formTopPersonal .formRightPersonal .radios {
+  display: block;
+  text-align: left;
+  padding-left: 40%;
+  padding-top: 3%;
+}
+.compareSection .compareForm .formTopPersonal .formRightPersonal .radios .inputDiv2 {
+  margin: 10% 0;
+}
 .compareSection .compareForm h2 {
   font-weight: 600;
   margin: 1% 0;
