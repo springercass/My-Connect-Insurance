@@ -370,14 +370,7 @@ header {
   }
 }
 .insuranceH1 {
-  position: absolute;
-  font-size: 1.2rem;
-  top: 1.9%;
-  left: 12%;
   color: #d35a2b;
-  font-weight: bolder;
-  margin: 0.9% 0 0 0;
-  font-weight: 400;
 }
 @media (max-width:500px) {
   .insuranceH1 {
@@ -401,7 +394,7 @@ header {
   .phoneH1 {
     font-size: 0.9rem;
     left: 72%;
-    top: 0.5%;
+    top: 2%;
     margin: 0;
     width: 120px;
   }
@@ -458,14 +451,14 @@ header {
 }
 .navBarHome {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   position: sticky;
   top: 0px;
   align-items: baseline;
   width: 100%;
   background: rgba(211, 90, 43, 0.85);
   padding: 0.5% 0;
-  margin: 0 0 0 0;
+  margin: 0 auto;
   box-shadow: 0 3px 15px #d35a2b;
 }
 @media (max-width:500px) {
@@ -657,7 +650,7 @@ i {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-evenly;
-  width: 50%;
+  width: 40%;
   margin: 3% auto;
 }
 @media (max-width:500px) {
@@ -818,6 +811,12 @@ i {
   margin: -8% 0 0 70%;
   opacity: 0.3;
 }
+@media (max-width:500px) {
+  .shape1 {
+    width: 200px;
+    margin: -6% 0 0 60%;
+  }
+}
 .carriers h1 {
   width: 30%;
   margin: -2% auto 1% auto;
@@ -830,6 +829,11 @@ i {
   font-family: "DM Serif Text", serif;
   letter-spacing: 0.01em;
 }
+@media (max-width:500px) {
+  .carriers h1 {
+    font-size: 1.5rem;
+  }
+}
 .carriers p {
   width: 50%;
   text-align: center;
@@ -839,6 +843,12 @@ i {
   line-height: 1.65rem;
   letter-spacing: 0.01em;
 }
+@media (max-width:500px) {
+  .carriers p {
+    font-size: 1rem;
+    width: 90%;
+  }
+}
 .carrierGrid {
   width: 70%;
   height: 100vh;
@@ -847,6 +857,12 @@ i {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+@media (max-width:500px) {
+  .carrierGrid {
+    width: 90%;
+    height: auto;
+  }
 }
 .carrierImg {
   width: 190px;
@@ -1139,6 +1155,7 @@ i {
   display: flex;
   flex-direction: column;
   margin-top: 2%;
+  margin-left: 5%;
   text-align: left;
 }
 @media (max-width:500px) {
@@ -1290,6 +1307,12 @@ i {
   height: 90vh;
   margin: 0% auto;
 }
+@media (max-width:500px) {
+  .compareSection {
+    width: 95%;
+    height: 90vh;
+  }
+}
 .compareSection h1 {
   font-size: 2rem;
   text-align: center;
@@ -1315,6 +1338,11 @@ i {
   background-color: #2d4f9e;
   color: white;
 }
+@media (max-width:500px) {
+  .compareSection .tabs .tab {
+    font-size: 1rem;
+  }
+}
 .compareSection .tabs .tab:hover {
   cursor: pointer;
 }
@@ -1337,10 +1365,16 @@ i {
   margin: auto;
   width: 100%;
 }
+@media (max-width:500px) {
+  .compareSection .compareForm {
+    margin: 2% auto;
+  }
+}
 .compareSection .compareForm .formTop {
   display: flex;
   width: 100%;
   justify-content: space-between;
+  margin: 3% 0;
 }
 .compareSection .compareForm h2 {
   font-weight: 600;
